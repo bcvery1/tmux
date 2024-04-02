@@ -7,12 +7,15 @@ This config will update tmux to look like this:
 
 ## Install
 Clone into: `$HOME/config`
+```bash
+git clone git@github.com:bcvery1/tmux ~/.config/tmux
+```
 
 Grab the patched font from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/0xProto.zip)
 to avoid status bar not rendering correctly. Ensure the terminal has the font set to the mono variant
 of this font.
 
-Launch tmux from the terminal and install plugins with `Prefix + I`
+Launch tmux from the terminal and install plugins with `Prefix + I` *(the default previx is Ctrl+b)*
 
 ## Plugins
 This config installs these plugins
